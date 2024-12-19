@@ -1,0 +1,375 @@
+* {
+    background: rgba(9, 12, 3, 1);
+    color: rgba(224, 228, 215, 1);
+}
+
+body {
+    margin: 0;
+    color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    font-family: "Source Serif 4", serif;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Source Serif 4", serif;
+    font-weight: 600;
+}
+
+.main1 {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.main1 h2 {
+    font-family: "Domine", serif;
+    font-size: 120px;
+    line-height: 120px;
+    margin-bottom: 12px;
+    width: 90%;
+    margin-left: 100px;
+    color: rgba(224, 228, 215, 1);
+}
+
+.main1 img {
+    width: 1344px;
+    height: 672px;
+    margin-top: 50px;
+    border-radius: 28px;
+}
+
+.main2 {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.main2 h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 1344px;
+    height: 40px;
+    margin-left: 65px;
+    font-family: "Domine", serif;
+}
+
+.main-photos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.project-card h4 {
+    font-size: 20px;
+    font-family: "Domine", serif;
+}
+
+.project-card p {
+    font-size: 15px;
+    font-family: "Outfit", serif;
+}
+
+.project-card img {
+    width: 413.33px;
+    height: 420px;
+    border-radius: 16px;
+}
+
+.card {
+    background: rgba(107, 142, 35, 1);
+    width: 135px;
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 16px;
+    color: #f4f4f4;
+    margin-top: 20px;
+    font-family: "Outfit", serif;
+    font-size: 15px;
+    border: none;
+}
+
+.contact h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 60px;
+    color: rgba(224, 228, 215, 1);
+    font-family: "Domine", serif;
+    align-items: flex-start;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin: 30px;
+}
+
+.contact p {
+    margin-left: 550px;
+    font-family: Outfit;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(224, 228, 215, 1);
+    margin-top: 30px;
+}
+
+.foot p {
+    font-family: "Domine", serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center; 
+    margin-top: 100px;
+    color: rgba(224, 228, 215, 1);
+}
+
+.foot input {
+    width: 437px;
+    height: 32px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1.5px;
+    background-color: rgba(211, 224, 184, 0.12);
+    margin-left: 450px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.foot button {
+    margin-left: 14px;
+    width: 151px;
+    height: 52px;
+    padding: 14px 32px;
+    border-radius: 16px;
+    font-size: 18px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.social-media img {
+    width: 48px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.insta {
+    border-radius: 8px;
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-family: "Domine", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(226, 235, 209, 0.62);
+}
+
+.contact-button {
+    border: 1px solid rgba(170, 182, 145, 0.2);
+    margin-right: -160px;
+    color: #d4d4d4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 168px;
+    height: 52px;
+    font-family: "Outfit", serif;
+}
+
+.card:hover {
+    background-color: #f4f4f4;
+    color: black;   
+}
+
+.contact-button:hover {
+    background-color: #f4f4f4;
+    color: black; 
+}
+
+@media (max-width: 1200px) {
+    .main1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main1 h2 {
+        font-size: 90px;
+        margin-left: 20px;
+    }
+
+    .main2 h3 {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+
+    .main-photos {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .project-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .contact p {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .foot input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .foot button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        font-size: 24px;
+    }
+
+    .main1 h2 {
+        font-size: 60px;
+        margin-left: 0;
+    }
+
+    .project-card img {
+        width: 80%;
+        height: auto;
+    }
+
+    .container {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .social-media img {
+        width: 40px;
+    }
+
+    .foot input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .foot button {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ul {
+        font-size: 20px;
+        gap: 15px;
+    }
+
+    .main1 h2 {
+        font-size: 40px;
+    }
+
+    .main2 h3 {
+        font-size: 24px;
+    }
+
+    .main-photos {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .project-card img {
+        width: 90%;
+        height: auto;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .foot input {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .foot button {
+        width: 90%;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .contact-button {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
